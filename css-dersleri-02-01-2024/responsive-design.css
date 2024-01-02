@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h2{
+    display: none;
+    font-size: 14px;
+}
+
+/* Media Query */
+
+/* minimum 500px demek, 500px ve 500px ' den büyük ekranlar için kullanılır. */
+
+/* @media(min-width: 500px){   
+    p{
+        font-size: 32px;
+    }
+}
+
+/* maksimum 500px demek, 500px ve 500px den küçük ekranlar için kullanılır. */
+/* @media(max-width: 500px){
+    p{
+        font-size: 16px;
+    }
+}  */
+
+
+/* Media Query Aralıkları */
+
+/* Phone */
+@media(min-width:375px) and (max-width:575px){
+
+    body{
+        background-color: gray;
+    }
+    #phone{
+        display: block;
+    }
+
+   
+
+}
+
+
+
+/* Landscape - Yan çevrilmiş cihazlar  */
+@media(min-width:576px) and (max-width:767px){
+    body{
+        background-color: blue;
+    }
+    #landscape{
+        display: block;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
+/* Tabletler */
+@media(min-width:768px) and (max-width:991px){
+
+    body{
+        background-color: red;
+    }
+    #tablet{
+        display: block;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+}
+
+/* Desktop */
+@media(min-width:992px) and (max-width:1199px){
+
+    body{
+        background-color: yellow;
+    }
+
+    #desktop{
+        display: block;
+    }
+}
+
+/*Large Desktop */
+@media(min-width:1200px) and (max-width:1399px){
+    body{
+        background-color: pink;
+    }
+
+    #large-desktop{
+        display: block;
+    }
+}
+
+/*x-Large Desktop */
+@media(min-width:1400px){
+    body{
+        background-color: chartreuse;
+    }
+
+    #x-large{
+        display: block;
+    }
+}
+
+

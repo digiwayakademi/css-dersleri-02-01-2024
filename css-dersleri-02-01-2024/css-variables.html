@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variables</title>
+</head>
+<style>
+    :root{
+        --background: #3e4c7f;
+        --orange: #FC997C;
+        --hcolor: #fff;
+        --pcolor: #000;        
+    }
+
+    .p-text{
+        font-size: 25px;
+    }
+
+    body{
+        background-color: var(--background);
+    }
+
+    div{
+        color: var(--hcolor);
+    }
+    div p {
+        color: var(--pcolor);
+    }
+
+</style>
+
+<body>
+  
+   <div>
+    <h1>Başlık1</h1>
+    <h2>başlık2</h2>
+    <h3>başlık3</h3>
+    <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla, dolorum, blanditiis tenetur quod quam qui quo expedita quibusdam nobis sint ratione ipsum? Eum expedita nobis odit, vel aperiam beatae.</p>
+    <h4>başlık4</h4>
+    <h5>başlık5</h5>
+    </div>  
+</body>
+</html>
